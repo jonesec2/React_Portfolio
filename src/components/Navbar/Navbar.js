@@ -14,7 +14,7 @@ function Navbar() {
 
          <div>
             <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-               <Link className="navbar-brand js-scroll-trigger" to="contact">
+               <Link className="navbar-brand js-scroll-trigger" to="">
                   <span className="d-block d-lg-none">Christian Jones</span>
                   <span className="d-none d-lg-block">
                      <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src="img\headshot1.JPG" alt="" />
@@ -27,7 +27,7 @@ function Navbar() {
                <div className="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul className="navbar-nav">
                      <li className="nav-item">
-                        <Link className="nav-link js-scroll-trigger" to="contact">Contact</Link>
+                        <Link className="nav-link js-scroll-trigger" to="/">Contact</Link>
                      </li>
                      <li className="nav-item">
                         <Link className="nav-link js-scroll-trigger" to="examples">Examples</Link>
@@ -52,9 +52,6 @@ function Navbar() {
                <Route path="/examples">
                   <Examples />
                </Route>
-               <Route path="/contact">
-                  <Home />
-               </Route>
                <Route path="/education">
                   <Education />
                </Route>
@@ -66,6 +63,9 @@ function Navbar() {
                </Route>
                <Route path="/interests">
                   <Interests />
+               </Route>
+               <Route path="/">
+                  <Home />
                </Route>
             </Switch>
          </div>
