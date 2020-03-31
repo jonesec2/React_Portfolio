@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
 import "./style.css";
 import Home from "../../pages/Home/Home";
 import Education from "../../pages/Education/Education";
+import Examples from "../../pages/Examples/Examples";
 
 // Depending on the current path, this component sets the "active" className on the appropriate navigation link item
 function Navbar() {
@@ -11,7 +12,7 @@ function Navbar() {
          <div>
             <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
                <div className="navbar-brand js-scroll-trigger" href="#page-top">
-                  {/* <span className="d-block d-lg-none">Christian Jones</span> */}
+                  <span className="d-block d-lg-none">Christian Jones</span>
                   <span className="d-none d-lg-block">
                      <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src="img\headshot1.JPG" alt="" />
                   </span>
@@ -23,28 +24,31 @@ function Navbar() {
                <div className="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul className="navbar-nav">
                      <li className="nav-item">
-                        <Link className="nav-link js-scroll-trigger" to="/contact">Contact</Link>
+                        <Link className="nav-link js-scroll-trigger" to="contact">Contact</Link>
                      </li>
                      <li className="nav-item">
-                        <a className="nav-link js-scroll-trigger" href="#examples">Examples</a>
+                        <Link className="nav-link js-scroll-trigger" to="examples">Examples</Link>
                      </li>
                      <li className="nav-item">
-                        <a className="nav-link js-scroll-trigger" href="#experience">Experience</a>
+                        <a className="nav-link js-scroll-trigger" href="experience">Experience</a>
                      </li>
                      <li className="nav-item">
                         <Link className="nav-link js-scroll-trigger" to="education">Education</Link>
                      </li>
                      <li className="nav-item">
-                        <a className="nav-link js-scroll-trigger" href="#skills">Skills</a>
+                        <a className="nav-link js-scroll-trigger" href="skills">Skills</a>
                      </li>
                      <li className="nav-item">
-                        <a className="nav-link js-scroll-trigger" href="#interests">Interests</a>
+                        <a className="nav-link js-scroll-trigger" href="interests">Interests</a>
                      </li>
                   </ul>
                </div>
             </nav>
 
             <Switch>
+               <Route path="/examples">
+                  <Examples />
+               </Route>
                <Route path="/contact">
                   <Home />
                </Route>
