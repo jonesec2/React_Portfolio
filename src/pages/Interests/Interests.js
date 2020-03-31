@@ -12,7 +12,7 @@ export default function Interests() {
             and Dragons, and books. I can't wait to use my new skills to create a website for my D&D group, or make a
                server to track books on my "to read" list.</p>
             <p className="mb-0">Thanks for visiting my online Portfolio. Please check out my other projects on my <a
-               href="https://github.com/jonesec2" title="Christian Jones gitHub" target="_blank">gitHub</a>, and feel
+               href="https://github.com/jonesec2" title="Christian Jones gitHub" rel="noreferrer noopener" target="_blank">gitHub</a>, and feel
                free
                to contact me with any inquiries about myself or my work.
             </p>

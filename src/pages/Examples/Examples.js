@@ -11,10 +11,10 @@ export default function Examples() {
             <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                <div className="resume-content">
                   <h3 className="mb-1">Good Cuisine <a href="https://github.com/schoe14/Good-Cuisine"
-                     title="Good Cuisine Repo" target="_blank"> <i className="fab fa-github"></i></a></h3>
+                     title="Good Cuisine Repo" rel="noreferrer noopener" target="_blank"> <i className="fab fa-github"></i></a></h3>
                   <div className="subheading mb-3">
 
-                     <a href="https://good-cuisine.herokuapp.com/" title="Good Cuisine" target="_blank"><img
+                     <a href="https://good-cuisine.herokuapp.com/" title="Good Cuisine" rel="noreferrer noopener" target="_blank"><img
                         className="img-fluid mx-auto mb-2" src="img/goodCuisine.JPG" alt="Good Cuisine" /></a>
 
                   </div>
@@ -26,10 +26,10 @@ export default function Examples() {
             <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                <div className="resume-content">
                   <h3 className="mb-1">Pack It <a href="https://github.com/jonesec2/Pack-It" title="Pack It Repo"
-                     target="_blank"> <i className="fab fa-github"></i></a></h3>
+                     rel="noreferrer noopener" target="_blank"> <i className="fab fa-github"></i></a></h3>
                   <div className="subheading mb-3">
 
-                     <a href="https://jonesec2.github.io/Pack-It/" title="Pack It" target="_blank"><img
+                     <a href="https://jonesec2.github.io/Pack-It/" title="Pack It" rel="noreferrer noopener" target="_blank"><img
                         className="img-fluid mx-auto mb-2" src="img/packItProject.JPG" alt="Pack It" /></a>
 
                   </div>
@@ -41,10 +41,10 @@ export default function Examples() {
             <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                <div className="resume-content">
                   <h3 className="mb-1">In Good Spirits <a href="https://github.com/jonesec2/Make_Me_A_Drink"
-                     title="In Good Spirits Repo" target="_blank"> <i className="fab fa-github"></i></a></h3>
+                     title="In Good Spirits Repo" rel="noreferrer noopener" target="_blank"> <i className="fab fa-github"></i></a></h3>
                   <div className="subheading mb-3">
 
-                     <a href="https://jonesec2.github.io/Make_Me_A_Drink/" title="In Good Spirits" target="_blank"><img
+                     <a href="https://jonesec2.github.io/Make_Me_A_Drink/" title="In Good Spirits" rel="noreferrer noopener" target="_blank"><img
                         className="img-fluid mx-auto mb-2" src="img/InGoodSpirits.JPG" alt="In Good Spirits" /></a>
 
                   </div>
@@ -57,11 +57,11 @@ export default function Examples() {
             <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                <div className="resume-content">
                   <h3 className="mb-1">New York Times Search <a href="https://github.com/jonesec2/NewYorkTimesSearch"
-                     title="New York Times Search Repo" target="_blank"> <i className="fab fa-github"></i></a></h3>
+                     title="New York Times Search Repo" rel="noreferrer noopener" target="_blank"> <i className="fab fa-github"></i></a></h3>
                   <div className="subheading mb-3">
 
                      <a href="https://jonesec2.github.io/NewYorkTimesSearch/" title="New York Times Search"
-                        target="_blank"><img className="img-fluid mx-auto mb-2" src="img/newYorkSearch.JPG"
+                        rel="noreferrer noopener" target="_blank"><img className="img-fluid mx-auto mb-2" src="img/newYorkSearch.JPG"
                            alt="New York Times Search" /></a>
 
                   </div>
@@ -74,11 +74,11 @@ export default function Examples() {
             <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                <div className="resume-content">
                   <h3 className="mb-1">Profile Generator <a href="https://github.com/jonesec2/Profile_Generator"
-                     title="Profile Generator Repo" target="_blank"> <i className="fab fa-github"></i></a></h3>
+                     title="Profile Generator Repo" rel="noreferrer noopener" target="_blank"> <i className="fab fa-github"></i></a></h3>
                   <div className="subheading mb-3">
 
                      <a href="https://github.com/jonesec2/Profile_Generator" title="Profile Generator"
-                        target="_blank"><img className="img-fluid mx-auto mb-2" src="img/profile_generator_demo.gif"
+                        rel="noreferrer noopener" target="_blank"><img className="img-fluid mx-auto mb-2" src="img/profile_generator_demo.gif"
                            alt="Profile Generator" /></a>
 
                   </div>

@@ -12,10 +12,10 @@ import './App.css';
 import Wrapper from './components/Wrapper/Wrapper';
 import Navbar from './components/Navbar/Navbar';
 // import Education from "./pages/Education/Education";
-import Home from "./pages/Home/Home";
 
 
 export default function App() {
+
    return (
       <Router>
             <Wrapper>
