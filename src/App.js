@@ -11,16 +11,20 @@ import {
 import './App.css';
 import Wrapper from './components/Wrapper/Wrapper';
 import Navbar from './components/Navbar/Navbar';
+// import Education from "./pages/Education/Education";
+import Home from "./pages/Home/Home";
 
-function App() {
+
+export default function App() {
    return (
       <Router>
             <Wrapper>
-               <Navbar>
-               </Navbar>
+            <div id="page-top">
+               <Navbar></Navbar>
+               {/* <Home></Home> */}
+            </div>
             </Wrapper>
       </Router>
    );
 }
 
-export default App;
