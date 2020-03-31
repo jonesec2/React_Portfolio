@@ -50,9 +50,7 @@ export default function Experience() {
                   <span className="text-primary">June 2017 - August 2017</span>
                </div>
             </div>
-
          </div>
-
       </section>
    )
 }
