@@ -1,0 +1,52 @@
+[
+   {
+      "title": "Good Cuisine",
+      "h3Title": "Good Cuisine Repo",
+      "github": "https://github.com/schoe14/Good-Cuisine",
+      "deployedTitle": "Good Cuisine",
+      "deployed": "https://good-cuisine.herokuapp.com/",
+      "src": "img/goodCuisine.JPG",
+      "alt": "Good Cuisine",
+      "description": "Search and save recipes based on your preferences, and dietary needs. Create a free account to save and track these recipes."
+   },
+   {
+      "title": "Pack It",
+      "h3Title": "Pack It Repo",
+      "github": "https://github.com/jonesec2/Pack-It",
+      "deployedTitle": "Pack It",
+      "deployed": "https://jonesec2.github.io/Pack-It/",
+      "src": "img/packItProject.JPG",
+      "alt": "Pack It",
+      "description": "Know what the weather will be like at your travel destination, and let Pack It suggest clothes you'll need for any situation. Add and pack items in your own virtual \"Suitcase\"."
+   },
+   {
+      "title": "In Good Spirits",
+      "h3Title": "In Good Spirits Repo",
+      "github": "https://github.com/jonesec2/Make_Me_A_Drink",
+      "deployedTitle": "In Good Spirits",
+      "deployed": "https://jonesec2.github.io/Make_Me_A_Drink/",
+      "src": "img/InGoodSpirits.JPG",
+      "alt": "In Good Spirits",
+      "description": "Throwing a party, need something new for New Years, or just bored on a Friday? Let us suggest random cocktails. We'll tell you what you need and what to do, all In Good Spirits."
+   },
+   {
+      "title": "New York Times Search" ,
+      "h3Title": "New York Times Search Repo",
+      "github": "https://github.com/jonesec2/NewYorkTimesSearch",
+      "deployedTitle": "New York Times Search" ,
+      "deployed": "https://jonesec2.github.io/NewYorkTimesSearch/",
+      "src": "img/newYorkSearch.JPG",
+      "alt": "New York Times Search" ,
+      "description": "In collaboration with like minded developers, The New York Times Article Search was created. Provide any search term and how many articles you want; set the year if desired, and then press search. Any article is a single search away."
+   },
+   {
+      "title": "Profile Generator",
+      "h3Title": "Profile Generator Repo",
+      "github": "https://github.com/jonesec2/Profile_Generator",
+      "deployedTitle": "Profile Generator",
+      "deployed": "https://github.com/jonesec2/Profile_Generator",
+      "src": "img/profile_generator_demo.gif",
+      "alt": "Profile Generator",
+      "description": "This is a node application using inquirer, and pdf-puppeteer to create a \"team\" profile based on the input of the user. The CLI prompts the user with questions and once they are done produces a pdf with the user's input."
+   }
+]

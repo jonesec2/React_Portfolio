@@ -33,8 +33,7 @@ export default function Examples() {
                         className="img-fluid mx-auto mb-2" src="img/packItProject.JPG" alt="Pack It" /></a>
 
                   </div>
-                  <p>Know what the weather will be like at your travel destination, and let Pack It suggest clothes
-                     you'll need for any situation. Add and pack items in your own virtual "Suitcase".</p>
+                  <p>Know what the weather will be like at your travel destination, and let Pack It suggest clothes you'll need for any situation. Add and pack items in your own virtual "Suitcase".</p>
                </div>
             </div>
 
@@ -49,8 +48,7 @@ export default function Examples() {
 
                   </div>
 
-                  <p>Throwing a party, need something new for New Years, or just bored on a Friday? Let us suggest
-                     random cocktails. We'll tell you what you need and what to do, all In Good Spirits.</p>
+                  <p>Throwing a party, need something new for New Years, or just bored on a Friday? Let us suggest random cocktails. We'll tell you what you need and what to do, all In Good Spirits.</p>
                </div>
             </div>
 
@@ -65,9 +63,7 @@ export default function Examples() {
                            alt="New York Times Search" /></a>
 
                   </div>
-                  <p>In collaboration with like minded developers, The New York Times Article Search was created.
-                  Provide any search term and how many articles you want; set the year if desired, and then press
-                     search. Any article is a single search away.</p>
+                  <p>In collaboration with like minded developers, The New York Times Article Search was created. Provide any search term and how many articles you want; set the year if desired, and then press search. Any article is a single search away.</p>
                </div>
             </div>
 
@@ -82,9 +78,7 @@ export default function Examples() {
                            alt="Profile Generator" /></a>
 
                   </div>
-                  <p>This is a node application using inquirer, and pdf-puppeteer to create a "team" profile based on
-                  the input of the user. The CLI prompts the user with questions and once they are done produces a
-                     pdf with the user's input.</p>
+                  <p>This is a node application using inquirer, and pdf-puppeteer to create a "team" profile based on the input of the user. The CLI prompts the user with questions and once they are done produces a pdf with the user's input.</p>
                </div>
             </div>
          </div>
