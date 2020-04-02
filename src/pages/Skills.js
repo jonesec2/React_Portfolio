@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCheck } from '@fortawesome/free-solid-svg-icons'
 
 export default function Skills() {
 
@@ -10,7 +12,7 @@ export default function Skills() {
             <div className="subheading mb-3">Programming Languages &amp; Tools</div>
             <ul className="list-inline dev-icons">
                <li className="list-inline-item">
-                  <i className="fab fa-html5"></i>
+                  {/* <FontAwesomeIcon icon={fabHtml5} /> */}
                </li>
                <li className="list-inline-item">
                   <i className="fab fa-css3-alt"></i>
@@ -32,16 +34,16 @@ export default function Skills() {
             <div className="subheading mb-3">Workflow</div>
             <ul className="fa-ul mb-0">
                <li>
-                  <i className="fa-li fa fa-check"></i>
+                  <FontAwesomeIcon icon={faCheck} />
                   Mobile-First, Responsive Design</li>
                <li>
-                  <i className="fa-li fa fa-check"></i>
+                  <FontAwesomeIcon icon={faCheck} />
                   Cross Browser Testing &amp; Debugging</li>
                <li>
-                  <i className="fa-li fa fa-check"></i>
+                  <FontAwesomeIcon icon={faCheck} />
                   Cross Functional Teams</li>
                <li>
-                  <i className="fa-li fa fa-check"></i>
+                  <FontAwesomeIcon icon={faCheck} />
                   Agile Development &amp; Scrum</li>
             </ul>
          </div>
