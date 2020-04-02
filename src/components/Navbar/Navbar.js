@@ -1,8 +1,8 @@
 import React from "react";
 import { Link, Switch, Route } from "react-router-dom";
-import "./style.css";
+// import "./style.css";
 import Home from "../../pages/Home/Home";
-import Education from "../../pages/Education";
+import Education from "../../pages/Education/Education";
 import Examples from "../../pages/Examples/Examples";
 import Experience from "../../pages/Experience/Experience";
 import Skills from "../../pages/Skills";
@@ -10,6 +10,7 @@ import Interests from "../../pages/Interests/Interests";
 
 
 function Navbar() {
+   
    return (
 
       <div id="page-top">
@@ -68,7 +69,7 @@ function Navbar() {
                <Interests />
             </Route>
          </Switch>
-         
+
       </div>
    );
 }

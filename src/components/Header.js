@@ -6,6 +6,7 @@ export default function Header(props) {
       <div className="w-100">
          <h2 className="mb-5">{props.header}</h2>
          {props.handleCard}
+         {props.children}
       </div>
    )
 }
