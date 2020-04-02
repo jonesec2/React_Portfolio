@@ -4,7 +4,7 @@ export default function Header(props) {
 
    return (
       <div className="w-100">
-         <h2 className="mb-5">Examples</h2>
+         <h2 className="mb-5">{props.header}</h2>
          {props.handleExamples}
       </div>
    )
