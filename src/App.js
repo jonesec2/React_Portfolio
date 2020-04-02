@@ -1,11 +1,7 @@
 import React from 'react';
 import {
    BrowserRouter as Router,
-   // Switch,
-   // Route,
-   // Link,
-   // useRouteMatch,
-   // useParams
+
 } from "react-router-dom";
 // import logo from './logo.svg';
 import './App.css';
@@ -18,12 +14,11 @@ export default function App() {
 
    return (
       <Router>
-            <Wrapper>
+         <Wrapper>
             <div id="page-top">
                <Navbar></Navbar>
-               {/* <Home></Home> */}
             </div>
-            </Wrapper>
+         </Wrapper>
       </Router>
    );
 }

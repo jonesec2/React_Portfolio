@@ -3,10 +3,8 @@
       "title": "Good Cuisine",
       "h3Title": "Good Cuisine Repo",
       "github": "https://github.com/schoe14/Good-Cuisine",
-      "deployedTitle": "Good Cuisine",
       "deployed": "https://good-cuisine.herokuapp.com/",
       "src": "img/goodCuisine.JPG",
-      "alt": "Good Cuisine",
       "description": "Search and save recipes based on your preferences, and dietary needs. Create a free account to save and track these recipes."
    },
    {

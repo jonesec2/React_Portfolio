@@ -3,12 +3,12 @@ import { Link, Switch, Route } from "react-router-dom";
 import "./style.css";
 import Home from "../../pages/Home/Home";
 import Education from "../../pages/Education";
-import Examples from "../../pages/Examples";
+import Examples from "../../pages/Examples/Examples";
 import Experience from "../../pages/Experience";
 import Skills from "../../pages/Skills";
-import Interests from "../../pages/Interests";
+import Interests from "../../pages/Interests/Interests";
 
-// Depending on the current path, this component sets the "active" className on the appropriate navigation link item
+
 function Navbar() {
    return (
 
