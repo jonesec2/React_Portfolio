@@ -1,0 +1,20 @@
+[
+   {
+      "title":"Senior Quality Analyst",
+      "subTitle":"Virginia Retirement System through UDig",
+      "description":"Manual User Interface testing and ETL backend validations. Working closely within an Agile Scrum Team to fulfill client needs.",
+      "dates":"December 2019 - Present"
+   },
+   {
+      "title":"Quality Analyst",
+      "subTitle":"Advantasure",
+      "description":"Using the SAFe Agile approach our Scrum Team created ACA Compliant Enterprise Software; the first of it's kind to exist in the online marketplace. I was in charge of creating mock data, test plans / cases, and testing scenarios. My day to day looked like testing complicated Medical Insurance logic through SQL queries, and validating UI was correctly displaying the information from our backend SQL structure.",
+      "dates":"August 2017 - December 2019"
+   },
+   {
+      "title":"Sample Coordinator",
+      "subTitle":"Scientific Analytical Institute",
+      "description":"Working closely within a small team, we triaged packages from hundreds of companies and tracked their details for various mineral testings. Meticulous detail and coordination were key to success.",
+      "dates":"June 2017 - August 2017"
+   }
+]

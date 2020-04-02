@@ -4,7 +4,7 @@ import "./style.css";
 import Home from "../../pages/Home/Home";
 import Education from "../../pages/Education";
 import Examples from "../../pages/Examples/Examples";
-import Experience from "../../pages/Experience";
+import Experience from "../../pages/Experience/Experience";
 import Skills from "../../pages/Skills";
 import Interests from "../../pages/Interests/Interests";
 
@@ -12,7 +12,7 @@ import Interests from "../../pages/Interests/Interests";
 function Navbar() {
    return (
 
-      <div>
+      <div id="page-top">
          <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <Link className="navbar-brand js-scroll-trigger" to="">
                <span className="d-block d-lg-none">Christian Jones</span>
@@ -68,6 +68,7 @@ function Navbar() {
                <Interests />
             </Route>
          </Switch>
+         
       </div>
    );
 }

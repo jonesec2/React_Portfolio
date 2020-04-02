@@ -10,7 +10,7 @@ export default class Examples extends Component {
    state = { examples, header: "Examples" }
 
 
-   handleExamples() {
+   handleCard() {
       return examples.map(examples =>
          <ExampleComponent
             title={examples.title}
@@ -28,7 +28,7 @@ export default class Examples extends Component {
          <Card>
             <Header
                header={this.state.header}
-               handleExamples={this.handleExamples()}>
+               handleCard={this.handleCard()}>
             </Header>
          </Card>
       );
