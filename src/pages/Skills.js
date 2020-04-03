@@ -1,8 +1,8 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheck } from '@fortawesome/free-solid-svg-icons'
-import Card from "../components/Header";
-import Header from "../components/Card";
+// import Card from "../components/Header";
+// import Header from "../components/Card";
 
 
 export default function Skills() {
@@ -15,7 +15,7 @@ export default function Skills() {
             <div className="subheading mb-3">Programming Languages &amp; Tools</div>
             <ul className="list-inline dev-icons">
                <li className="list-inline-item">
-                  {/* <FontAwesomeIcon icon={fabHtml5} /> */}
+                  {/* <FontAwesomeIcon icon={faCode} /> */}
                </li>
                <li className="list-inline-item">
                   <i className="fab fa-css3-alt"></i>
