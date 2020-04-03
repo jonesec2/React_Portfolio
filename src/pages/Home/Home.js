@@ -10,7 +10,7 @@ function Home() {
                    <span className="text-primary">Jones</span>
             </h1>
             <div className="subheading mb-5">Richmond, Virginia · (804) 456-2130 ·
-                   <a href="mailto:jonesec2@gmail.com">jonesec2@gmail.com</a>
+                   <a href="mailto:jonesec2@gmail.com"> jonesec2@gmail.com</a>
             </div>
             <p className="lead mb-5">I am an experienced Quality Analyst ready to transition from validating applications to
                    creating them.</p>
@@ -18,7 +18,7 @@ function Home() {
                <a href="https://www.linkedin.com/in/edward-christian-jones-4170009b/" rel="noreferrer noopener" target="_blank">
                   <i className="fab fa-linkedin-in"></i>
                </a>
-               <a href="https://github.com/jonesec2">
+               <a href="https://github.com/jonesec2" rel="noreferrer noopener" target="_blank">
                   <i className="fab fa-github"></i>
                </a>
                <a href="Edward Christian Jones Resume 2019.pdf" rel="noreferrer noopener" target="_blank">
