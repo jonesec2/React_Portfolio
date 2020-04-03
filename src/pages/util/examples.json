@@ -4,7 +4,7 @@
       "h3Title": "Good Cuisine Repo",
       "github": "https://github.com/schoe14/Good-Cuisine",
       "deployed": "https://good-cuisine.herokuapp.com/",
-      "src": "img/goodCuisine.JPG",
+      "src": "img/Good_Cuisine_Desktop_Demo.gif",
       "description": "Search and save recipes based on your preferences, and dietary needs. Create a free account to save and track these recipes."
    },
    {
@@ -28,16 +28,6 @@
       "description": "Throwing a party, need something new for New Years, or just bored on a Friday? Let us suggest random cocktails. We'll tell you what you need and what to do, all In Good Spirits."
    },
    {
-      "title": "New York Times Search" ,
-      "h3Title": "New York Times Search Repo",
-      "github": "https://github.com/jonesec2/NewYorkTimesSearch",
-      "deployedTitle": "New York Times Search" ,
-      "deployed": "https://jonesec2.github.io/NewYorkTimesSearch/",
-      "src": "img/newYorkSearch.JPG",
-      "alt": "New York Times Search" ,
-      "description": "In collaboration with like minded developers, The New York Times Article Search was created. Provide any search term and how many articles you want; set the year if desired, and then press search. Any article is a single search away."
-   },
-   {
       "title": "Profile Generator",
       "h3Title": "Profile Generator Repo",
       "github": "https://github.com/jonesec2/Profile_Generator",
@@ -46,5 +36,15 @@
       "src": "img/profile_generator_demo.gif",
       "alt": "Profile Generator",
       "description": "This is a node application using inquirer, and pdf-puppeteer to create a \"team\" profile based on the input of the user. The CLI prompts the user with questions and once they are done produces a pdf with the user's input."
+   },
+   {
+      "title": "New York Times Search" ,
+      "h3Title": "New York Times Search Repo",
+      "github": "https://github.com/jonesec2/NewYorkTimesSearch",
+      "deployedTitle": "New York Times Search" ,
+      "deployed": "https://jonesec2.github.io/NewYorkTimesSearch/",
+      "src": "img/newYorkSearch.JPG",
+      "alt": "New York Times Search" ,
+      "description": "In collaboration with like minded developers, The New York Times Article Search was created. Provide any search term and how many articles you want; set the year if desired, and then press search. Any article is a single search away."
    }
 ]

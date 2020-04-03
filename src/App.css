@@ -19,6 +19,12 @@ body {
    transition: opacity 300ms ease-in;
 }
 
+.fab {
+   padding-left: 10px;
+   padding-right: 10px;
+   color: black;
+}
+
 .fade-exit {
    opacity: 1;
 }
@@ -27,6 +33,7 @@ body {
    opacity: 0.01;
    transition: opacity 300ms ease-in;
 }
+
 
 @media (min-width: 992px) {
    body {
@@ -94,6 +101,25 @@ p.lead {
 
 .dev-icons .list-inline-item i:hover {
    color: #17504d;
+}
+
+.sql {
+   max-width: 42px;
+   max-height: 48px;
+}
+
+.imageBox {
+   position: relative;
+}
+.imageBox .hoverImg {
+   position: absolute;
+   left: 0;
+   top: 0;
+   display: none;
+}
+
+.imageBox:hover .hoverImg {
+   display: block;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {

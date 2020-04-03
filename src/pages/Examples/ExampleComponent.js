@@ -7,7 +7,7 @@ export default function ExampleComponent(props) {
          <div className="resume-content">
             <h3 className="mb-1">{props.title}
                <a href={props.github} title={props.h3Title} rel="noreferrer noopener" target="_blank">
-                  <i className="fab fa-github"></i>
+               <i className="fab fa-github"></i>
                </a>
             </h3>
             <div className="subheading mb-3">

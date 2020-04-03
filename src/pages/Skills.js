@@ -15,7 +15,10 @@ export default function Skills() {
             <div className="subheading mb-3">Programming Languages &amp; Tools</div>
             <ul className="list-inline dev-icons">
                <li className="list-inline-item">
-                  {/* <FontAwesomeIcon icon={faCode} /> */}
+                  <i class="fab fa-react"></i>
+               </li>
+               <li className="list-inline-item">
+                  <i className="fab fa-html5"></i>
                </li>
                <li className="list-inline-item">
                   <i className="fab fa-css3-alt"></i>
@@ -27,7 +30,14 @@ export default function Skills() {
                   <i className="fab fa-node-js"></i>
                </li>
                <li className="list-inline-item">
-                  <i className="fab fa-sass"></i>
+                  <div className="imageBox">
+                     <div>
+                        <img className="imageInn mx-auto mb-2 sql" src="img/sql_database.png" alt="" />
+                     </div>
+                     <div>
+                        <img className="hoverImg mx-auto sql mt-3 mb-2" src="img/sql_database_green.png" alt="" />
+                     </div>
+                  </div>
                </li>
                <li className="list-inline-item">
                   <i className="fab fa-npm"></i>
