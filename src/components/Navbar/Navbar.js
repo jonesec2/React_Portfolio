@@ -1,6 +1,6 @@
 import React from "react";
-import { Link, Switch, Route } from "react-router-dom";
-// import "./style.css";
+import { Link, Switch, Route, withRouter } from "react-router-dom";
+import { TransitionGroup, CSSTransition } from "react-transition-group";
 import Home from "../../pages/Home/Home";
 import Education from "../../pages/Education/Education";
 import Examples from "../../pages/Examples/Examples";
@@ -9,8 +9,8 @@ import Skills from "../../pages/Skills";
 import Interests from "../../pages/Interests/Interests";
 
 
-function Navbar() {
-   
+function Navbar({ location }) {
+
    return (
 
       <div id="page-top">
@@ -49,29 +49,36 @@ function Navbar() {
             </div>
          </nav>
 
-         <Switch>
-            <Route exact path="/">
-               <Home />
-            </Route>
-            <Route path="/examples">
-               <Examples />
-            </Route>
-            <Route path="/education">
-               <Education />
-            </Route>
-            <Route path="/experience">
-               <Experience />
-            </Route>
-            <Route path="/skills">
-               <Skills />
-            </Route>
-            <Route path="/interests">
-               <Interests />
-            </Route>
-         </Switch>
-
+         <TransitionGroup>
+            <CSSTransition
+               key={location.key}
+               timeout={{ enter: 300, exit: 300 }}
+               classNames={'fade'}
+            >
+               <Switch>
+                  <Route exact path="/">
+                     <Home />
+                  </Route>
+                  <Route path="/examples">
+                     <Examples />
+                  </Route>
+                  <Route path="/education">
+                     <Education />
+                  </Route>
+                  <Route path="/experience">
+                     <Experience />
+                  </Route>
+                  <Route path="/skills">
+                     <Skills />
+                  </Route>
+                  <Route path="/interests">
+                     <Interests />
+                  </Route>
+               </Switch>
+            </CSSTransition>
+         </TransitionGroup>
       </div>
    );
 }
 
-export default Navbar;
+export default withRouter(Navbar);

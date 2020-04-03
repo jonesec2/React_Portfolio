@@ -37,17 +37,17 @@ export default function Skills() {
             <div className="subheading mb-3">Workflow</div>
             <ul className="fa-ul mb-0">
                <li>
-                  <FontAwesomeIcon icon={faCheck} />
-                  Mobile-First, Responsive Design</li>
+                  <FontAwesomeIcon icon={faCheck} /> Mobile-First, Responsive Design
+               </li>
                <li>
-                  <FontAwesomeIcon icon={faCheck} />
-                  Cross Browser Testing &amp; Debugging</li>
+                  <FontAwesomeIcon icon={faCheck} />Cross Browser Testing &amp; Debugging
+               </li>
                <li>
-                  <FontAwesomeIcon icon={faCheck} />
-                  Cross Functional Teams</li>
+                  <FontAwesomeIcon icon={faCheck} /> Cross Functional Teams
+               </li>
                <li>
-                  <FontAwesomeIcon icon={faCheck} />
-                  Agile Development &amp; Scrum</li>
+                  <FontAwesomeIcon icon={faCheck} />Agile Development &amp; Scrum
+               </li>
             </ul>
          </div>
       </section>
