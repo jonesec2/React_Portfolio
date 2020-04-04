@@ -10,9 +10,9 @@ I hope you enjoy! :)
 
 ## Preview
 
-[![Resume Preview](public/img/examples.JPG)](https://jonesec2.github.io/christian-jones-portfolio/)
+[![Resume Preview](public/img/examples.JPG)](https://christian-react-app.herokuapp.com/)
 
-**[View Live Preview](https://jonesec2.github.io/christian-jones-portfolio/)**
+**[View Live Preview](https://christian-react-app.herokuapp.com/)**
 
 ## Contact
 This has my name, and contact information, as well as links to my socials and resume.
