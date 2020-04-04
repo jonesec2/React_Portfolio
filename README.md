@@ -10,7 +10,7 @@ I hope you enjoy! :)
 
 ## Preview
 
-[![Resume Preview](img/examples.JPG)](https://jonesec2.github.io/christian-jones-portfolio/)
+[![Resume Preview](public/img/examples.JPG)](https://jonesec2.github.io/christian-jones-portfolio/)
 
 **[View Live Preview](https://jonesec2.github.io/christian-jones-portfolio/)**
 
