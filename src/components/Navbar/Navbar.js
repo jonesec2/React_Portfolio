@@ -18,7 +18,7 @@ function Navbar({ location }) {
             <Link className="navbar-brand js-scroll-trigger" to="">
                <span className="d-block d-lg-none">Christian Jones</span>
                <span className="d-none d-lg-block">
-                  <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src="img\headshot1.JPG" alt="" />
+                  <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/headshot1.JPG" alt="" />
                </span>
             </Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
