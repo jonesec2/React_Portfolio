@@ -13,7 +13,7 @@ export default function ExampleComponent(props) {
             <div className="subheading mb-3">
 
                <a href={props.deployed} title={props.title} rel="noreferrer noopener" target="_blank">
-                  <img className="img-fluid mx-auto mb-2" src={props.src} alt={props.title}/>
+                  <img className = {props.class} src={props.src} alt={props.title}/>
                </a>
 
             </div>

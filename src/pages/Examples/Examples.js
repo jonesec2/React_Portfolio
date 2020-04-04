@@ -18,6 +18,7 @@ export default class Examples extends Component {
             github={examples.github}
             deployed={examples.deployed}
             src={examples.src}
+            class={examples.class}
             description={examples.description}
          />
       )

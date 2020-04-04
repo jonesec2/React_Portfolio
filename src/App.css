@@ -34,7 +34,6 @@ body {
    transition: opacity 300ms ease-in;
 }
 
-
 @media (min-width: 992px) {
    body {
       padding-top: 0;
@@ -111,11 +110,25 @@ p.lead {
 .imageBox {
    position: relative;
 }
+
 .imageBox .hoverImg {
    position: absolute;
    left: 0;
    top: 0;
    display: none;
+}
+
+.good {
+   min-width: 100%;
+   width:100%;
+}
+
+.resume-content {
+   max-width: 920px;
+}
+
+.profile {
+   min-width: 100%;
 }
 
 .imageBox:hover .hoverImg {
@@ -131,6 +144,8 @@ p.lead {
 #sideNav .navbar-toggler:focus {
    outline-color: #4aaaa5;
 }
+
+
 
 @media (min-width: 992px) {
    #sideNav {
@@ -171,6 +186,54 @@ p.lead {
       display: block;
    }
 }
+
+@media (min-width: 1600px) {
+   #sideNav {
+      text-align: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: flex;
+      flex-direction: column;
+      width: 22rem;
+      height: 100vh;
+   }
+   #sideNav .navbar-brand {
+      display: flex;
+      margin: auto auto 0;
+      padding: 0.5rem;
+   }
+   #sideNav .navbar-brand .img-profile {
+      max-width: 22rem;
+      max-height: 18rem;
+      border: 0.5rem solid rgba(255, 255, 255, 0.2);
+   }
+   #sideNav .navbar-collapse {
+      display: flex;
+      align-items: flex-start;
+      flex-grow: 0;
+      width: 100%;
+      margin-bottom: auto;
+   }
+   #sideNav .navbar-collapse .navbar-nav {
+      flex-direction: column;
+      width: 100%;
+   }
+   #sideNav .navbar-collapse .navbar-nav .nav-item {
+      display: block;
+   }
+   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+      display: block;
+   }
+   .p-lg-5 {
+    padding: 10rem!important;
+   }
+   .resume-content {
+      max-width: 960px;
+   }
+}
+
+
 
 .examples {
    display: block!important
