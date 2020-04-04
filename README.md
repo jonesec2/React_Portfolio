@@ -1,6 +1,6 @@
 # [Start "React" - Resume](https://startbootstrap.com/template-overviews/resume/)
 
-[Resume](https://startbootstrap.com/template-overviews/resume/) is a resume and CV theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). 
+["Resume"](https://startbootstrap.com/template-overviews/resume/) is a resume and CV theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). 
 
 I used the Start Bootstrap template as a base to start my portfolio, as I particularly loved the side nav bar and font and styling.
 
