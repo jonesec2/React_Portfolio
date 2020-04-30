@@ -14,7 +14,7 @@ function Home() {
             </div>
             <p className="lead mb-5">I am an experienced Quality Analyst ready to transition from validating applications to
                    creating them.</p>
-               <p className="lead mb-5">This portfolio created using Bootstrap created by Start Bootstrap.</p>
+               <p className="lead mb-5">This portfolio was created using a Bootstrap template created by Start Bootstrap.</p>
             <div className="social-icons">
                <a href="https://www.linkedin.com/in/edward-christian-jones-4170009b/" rel="noreferrer noopener" target="_blank">
                   <i className="fab fa-linkedin-in"></i>
