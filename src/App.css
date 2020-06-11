@@ -121,7 +121,7 @@ p.lead {
 .good, .moat, .pack, .spirits, .profile {
    min-width: 100%;
    width:100%;
-   min-height: 470px;
+   min-height: 450px;
    max-height: 525px;
 }
 
@@ -248,7 +248,7 @@ p.lead {
 section.resume-section {
    padding-top: 5rem !important;
    padding-bottom: 5rem !important;
-   padding-left: 5rem !important;
+   padding-left: 3rem !important;
    max-width: 75rem;
 }
 
@@ -259,7 +259,7 @@ section.resume-section .resume-item .resume-date {
 @media (min-width: 768px) {
    section.resume-section {
       min-height: 100vh;
-      padding-left: rem !important;
+      padding-left: 3rem !important;
    }
    section.resume-section .resume-item .resume-date {
       min-width: 18rem;
@@ -270,6 +270,7 @@ section.resume-section .resume-item .resume-date {
    section.resume-section {
       padding-top: 3rem !important;
       padding-bottom: 3rem !important;
+      padding-left: 5rem !important;
    }
 }
 
