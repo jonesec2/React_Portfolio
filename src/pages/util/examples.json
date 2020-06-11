@@ -2,11 +2,11 @@
    {
       "title": "Master Of All Trades",
       "h3Title": "MOAT Repo",
-      "github": "https://github.com/schoe14/Good-Cuisine",
-      "deployed": "https://good-cuisine.herokuapp.com/",
-      "src": "img/Good_Cuisine_Desktop_Demo.gif",
+      "github": "https://github.com/jonesec2/moat",
+      "deployed": "https://master-of-all-trades.herokuapp.com/",
+      "src": "img/MOAT-demo.gif",
       "class":"good img-fluid mx-auto mb-2",
-      "description": "Search and save recipes based on your preferences, and dietary needs. Create a free account to save and track these recipes."
+      "description": "An online community where anyone can learn anything. Novice and expert sharing advice and experience. Create an account, pick your interests, and start posting."
    },
    {
       "title": "Good Cuisine",
@@ -49,16 +49,5 @@
       "alt": "Profile Generator",
       "class":"profile img-fluid mx-auto mb-2",
       "description": "This is a node application using inquirer, and pdf-puppeteer to create a \"team\" profile based on the input of the user. The CLI prompts the user with questions and once they are done produces a pdf with the user's input."
-   },
-   {
-      "title": "New York Times Search" ,
-      "h3Title": "New York Times Search Repo",
-      "github": "https://github.com/jonesec2/NewYorkTimesSearch",
-      "deployedTitle": "New York Times Search" ,
-      "deployed": "https://jonesec2.github.io/NewYorkTimesSearch/",
-      "src": "img/newYorkSearch.JPG",
-      "alt": "New York Times Search" ,
-      "class":"york img-fluid mx-auto mb-2",
-      "description": "In collaboration with like minded developers, The New York Times Article Search was created. Provide any search term and how many articles you want; set the year if desired, and then press search. Any article is a single search away."
    }
 ]

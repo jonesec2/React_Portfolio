@@ -155,7 +155,7 @@ p.lead {
       left: 0;
       display: flex;
       flex-direction: column;
-      width: 17rem;
+      width: 19rem;
       height: 100vh;
    }
    #sideNav .navbar-brand {
@@ -242,6 +242,7 @@ p.lead {
 section.resume-section {
    padding-top: 5rem !important;
    padding-bottom: 5rem !important;
+   padding-left: 5rem !important;
    max-width: 75rem;
 }
 
@@ -252,6 +253,7 @@ section.resume-section .resume-item .resume-date {
 @media (min-width: 768px) {
    section.resume-section {
       min-height: 100vh;
+      padding-left: 2rem !important;
    }
    section.resume-section .resume-item .resume-date {
       min-width: 18rem;
