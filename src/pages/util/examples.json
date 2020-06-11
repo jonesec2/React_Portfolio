@@ -5,7 +5,7 @@
       "github": "https://github.com/jonesec2/moat",
       "deployed": "https://master-of-all-trades.herokuapp.com/",
       "src": "img/MOAT-demo.gif",
-      "class":"good img-fluid mx-auto mb-2",
+      "class":"moat img-fluid mx-auto mb-2",
       "description": "An online community where anyone can learn anything. Novice and expert sharing advice and experience. Create an account, pick your interests, and start posting."
    },
    {
@@ -15,7 +15,7 @@
       "deployed": "https://good-cuisine.herokuapp.com/",
       "src": "img/Good_Cuisine_Desktop_Demo.gif",
       "class":"good img-fluid mx-auto mb-2",
-      "description": "Search and save recipes based on your preferences, and dietary needs. Create a free account to save and track these recipes."
+      "description": "Search and save recipes based on your preferences, and dietary needs. Create a free account to start saving these recipes for later use."
    },
    {
       "title": "Pack It",

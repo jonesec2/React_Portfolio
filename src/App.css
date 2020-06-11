@@ -118,18 +118,24 @@ p.lead {
    display: none;
 }
 
-.good {
+.good, .moat, .pack, .spirits, .profile {
    min-width: 100%;
    width:100%;
+   min-height: 470px;
+   max-height: 525px;
 }
 
+
 .resume-content {
-   max-width: 920px;
+   max-width: 900px;
+   min-height: 450px;
 }
 
 .profile {
    min-width: 100%;
 }
+
+
 
 .imageBox:hover .hoverImg {
    display: block;
@@ -253,7 +259,7 @@ section.resume-section .resume-item .resume-date {
 @media (min-width: 768px) {
    section.resume-section {
       min-height: 100vh;
-      padding-left: 2rem !important;
+      padding-left: rem !important;
    }
    section.resume-section .resume-item .resume-date {
       min-width: 18rem;
