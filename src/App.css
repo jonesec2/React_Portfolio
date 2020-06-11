@@ -164,7 +164,7 @@ p.lead {
       left: 0;
       display: flex;
       flex-direction: column;
-      width: 19rem;
+      width: 22rem;
       height: 100vh;
    }
    #sideNav .navbar-brand {
@@ -251,7 +251,7 @@ p.lead {
 section.resume-section {
    padding-top: 5rem !important;
    padding-bottom: 5rem !important;
-   padding-left: 5rem !important;
+   padding-left: 9rem !important;
    max-width: 75rem;
 }
 
