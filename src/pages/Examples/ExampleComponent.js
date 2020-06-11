@@ -4,7 +4,7 @@ export default function ExampleComponent(props) {
 
    return (
       <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-         <div className="resume-content">
+         <div className="example-content">
             <h3 className="mb-1">{props.title}
                <a href={props.github} title={props.h3Title} rel="noreferrer noopener" target="_blank">
                <i className="fab fa-github"></i>
